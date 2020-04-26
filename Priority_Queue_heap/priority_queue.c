@@ -70,7 +70,7 @@ int heapPop(int *value) {
 		// 교체 후 다음 작업을 위한 위치로 이동 
 		current = child;
 	}
-	return -1;
+	return 1;
 }
 
 
